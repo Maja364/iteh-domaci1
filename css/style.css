@@ -1,0 +1,87 @@
+* {
+    font-family: Montserrat;
+}
+
+body {
+    background-image: url("../img/logInBackground.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+form {
+    display: block;
+    margin-top: 120px;
+    margin-left: -40px;
+    height: 400px;
+    width: 600px;
+}
+
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 18px 0;
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 15px;
+}
+
+.main-div {
+    /*background: #ffffff none repeat scroll 0 0;*/
+    
+
+    border-radius: 2px;
+    margin: 10px auto 30px;
+    max-width: 38%;
+    padding: 50px 50px 70px 71px
+}
+
+.login-form {
+    /* background-image: url(../img/background.jpg); */
+    text-align: center;
+
+}
+
+.login-form .btn.btn-primary {
+    margin-top: 10px;
+    margin-right: -60px;
+    background: rgb(216, 70, 128) none repeat scroll 0 0;
+    border-color: rgb(178, 17, 137);
+    font-size: 20px;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+
+
+}
+
+.login-form .btn.btn-primary:hover {
+    background: rgb(200, 18, 88) none repeat scroll 0 0;
+    border-color: rgb(74, 5, 52);
+    color: rgb(126, 113, 113);
+    font-size: 20px;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+
+.username {
+    margin-left: -42px;
+
+}
+
+.password {
+    margin-right: -28px;
+
+}
